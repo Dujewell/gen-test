@@ -46,12 +46,35 @@ body {
   line-height: 1.5;
 }
 
-adress {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+
+address {
   font-style: normal;
 }
 
 ul {
   list-style-type: none;
+}
+
+.section {
+  padding: 48px 0px;
+}
+
+.visually-hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
 
 /* Button */
@@ -81,7 +104,12 @@ ul {
 }
 
 /* Hero section */
+.hero-section {
+  padding: 272px 0px;
+}
+
 .hero-title {
+  margin-bottom: 0;
   color: var(--color-primari-light);
   text-align: center;
   font-size: 128px;
